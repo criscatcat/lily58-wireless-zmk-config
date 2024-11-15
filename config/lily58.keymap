@@ -64,8 +64,8 @@
             bindings = <
 &trans  &trans                &trans                 &trans            &trans         &trans                       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS      &kp C_AC_SEARCH  &trans
 &trans  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(UP_ARROW)  &trans         &kp LG(N)                    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS     &kp UNDERSCORE   &trans
-&trans  &trans                &kp LS(LEFT)           &kp LS(DOWN)      &kp LS(RIGHT)  &trans                       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK  &trans           &trans
-&trans  &trans                &trans                 &trans            &kp LS(V)      &trans     &trans    &trans  &kp N0        &kp PERIOD    &kp EQUAL     &kp SLASH     &trans           &trans
+&trans  &trans                &kp LS(LEFT)           &kp LS(DOWN)      &kp LS(RIGHT)  &kp H                        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK  &trans           &trans
+&trans  &kp M                 &kp U                  &kp P             &kp LS(V)      &kp I      &trans    &trans  &kp N0        &kp PERIOD    &kp EQUAL     &kp SLASH     &trans           &trans
                                                      &trans            &trans         &trans     &trans    &trans  &trans        &trans        &trans
             >;
 
