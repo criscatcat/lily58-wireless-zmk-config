@@ -42,11 +42,11 @@
 
             display-name = "Lower";
             bindings = <
-&bt BT_CLR     &bt BT_SEL 0                           &bt BT_SEL 1                             &bt BT_SEL 2          &bt BT_SEL 3          &bt BT_SEL 4                           &trans  &trans  &trans  &trans  &trans  &trans
-&kp LS(LG(O))  &mt LS(LG(LEFT_BRACKET)) LEFT_BRACKET  &mt LG(LS(RIGHT_BRACKET)) RIGHT_BRACKET  &mt PAGE_UP UP_ARROW  &kp LG(MINUS)         &mt LG(N0) LG(PLUS)                    &trans  &trans  &trans  &trans  &trans  &trans
-&kp I          &kp H                                  &mt HOME LEFT                            &mt PAGE_DOWN DOWN    &mt END RIGHT         &kp M                                  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LG(N)      &kp P                                  &kp LG(N)                                &kp U                 &kp NON_US_BACKSLASH  &kp L                &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                                                                               &trans                &trans                &trans               &trans    &trans  &trans  &trans  &trans
+&bt BT_CLR     &bt BT_SEL 0                           &bt BT_SEL 1                             &bt BT_SEL 2          &bt BT_SEL 3   &bt BT_SEL 4                           &trans  &trans  &trans  &trans  &trans  &trans
+&kp LS(LG(O))  &mt LS(LG(LEFT_BRACKET)) LEFT_BRACKET  &mt LG(LS(RIGHT_BRACKET)) RIGHT_BRACKET  &mt PAGE_UP UP_ARROW  &kp LG(MINUS)  &mt LG(N0) LG(PLUS)                    &trans  &trans  &trans  &trans  &trans  &trans
+&kp I          &kp H                                  &mt HOME LEFT                            &mt PAGE_DOWN DOWN    &mt END RIGHT  &kp M                                  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LG(N)      &kp P                                  &kp LG(N)                                &kp U                 &kp BACKSLASH  &kp L                &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                                                                               &trans                &trans         &trans               &trans    &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
